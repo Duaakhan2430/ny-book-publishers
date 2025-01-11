@@ -1,0 +1,39 @@
+header {
+    background: #f8e6e2;
+    padding: 12px 0px;
+}
+
+header .row{
+    align-items: center;
+}
+
+.logo img{
+    width: 40%;
+}
+
+header button{
+        width: 180px;
+        height: 44px;
+        background-color: #eb7966;
+        border: 1px solid #eb7966;
+        color: #fff;
+        border-radius: 34px;
+        font-size: 18px;
+        outline: none;
+}
+
+header ul {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 0px;
+    gap: 25px;
+    list-style: none;
+}
+
+header ul li a{
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+
+}
